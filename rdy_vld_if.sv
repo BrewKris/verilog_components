@@ -3,6 +3,7 @@
 // rdy vld interface transfers data when both rdy and vld are high
 
 /*
+@WAVEDROM_START
 { signal: [
   { name: 'clk',    wave: 'p.............'},
   ['src', 
@@ -13,6 +14,7 @@
     { name: 'rdy',     wave: '0.1.....0.|.10' }
   ]
 ]}
+@WAVEDROM_END
 */
 
 interface rdy_vld_if #(
