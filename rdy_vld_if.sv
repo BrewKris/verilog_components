@@ -1,5 +1,5 @@
-// Author Chris Brewer 2025 
-
+// Author: Chris Brewer (@BrewKris) 2025 
+// License: MIT see LICENSE file in root directory
 // rdy vld interface transfers data when both rdy and vld are high
 
 /*
@@ -7,7 +7,7 @@
 { signal: [
   { name: 'clk',    wave: 'p.............'},
   ['src', 
-    { name: 'vldData', wave: 'x5.5x..55.|..x', data: ['D1', 'D2', 'D3', 'D4'] },
+    { name: 'vld_data', wave: 'x5.5x..55.|..x', data: ['D1', 'D2', 'D3', 'D4'] },
     { name: 'vld',     wave: '01..0..1..|..0' }
   ],
   ['dst',
