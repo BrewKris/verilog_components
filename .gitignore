@@ -1,0 +1,4 @@
+verilog_components.code-workspace
+.vscode/
+.dvt/
+dvt_build.log
